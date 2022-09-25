@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .relative-div{
+       @apply relative lg:mt-24 mt-44 mx-4
+    }
+}
