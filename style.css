@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer components{
-    .relative-div{
-       @apply relative lg:mt-24 mt-44 mx-4
+    .absolute-div{
+       @apply absolute space-y-24 lg:top-0 lg:ml-28 lg:pl-5 lg:pr-16 lg:my-8  lg:bottom-0 -bottom-44 mx-4 px-3 pt-4 bg-white shadow-lg
+    }
+  
+    .buttoned-div{
+        @apply lg:rounded-full lg:border lg:border-black lg:items-center flex py-3 px-6 lg:space-x-2 lg:hover:bg-cyan-300 lg:hover:border-none hover:cursor-pointer
     }
 }
